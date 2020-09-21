@@ -3,3 +3,9 @@ server:
 
 my:
   value: "config client refreshed"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
